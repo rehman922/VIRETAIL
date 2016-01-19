@@ -1,0 +1,685 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="PreviewLineCount">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="LevelIndent">-1</property>
+  <property name="BestFitMaxRowCount">-1</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="GroupFooterShowMode">VisibleIfExpanded</property>
+  <property name="ChildGridLevelName" />
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="VertScrollTipFieldName" />
+  <property name="NewItemRowText" />
+  <property name="GroupPanelText" />
+  <property name="PreviewFieldName" />
+  <property name="BorderStyle">Default</property>
+  <property name="ViewCaption" />
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailHeight">350</property>
+  <property name="Name">advBandedGridView1</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="ShowButtonMode">ShowForFocusedCell</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="HorzScrollStep">3</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">RowSelect</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowGroupPanel">false</property>
+    <property name="ShowFilterPanelMode">Never</property>
+    <property name="ShowBands">false</property>
+    <property name="ColumnAutoWidth">true</property>
+  </property>
+  <property name="OptionsNavigation" isnull="true" iskey="true">
+    <property name="AutoMoveRowFocus">true</property>
+    <property name="EnterMoveNextColumn">false</property>
+    <property name="UseTabKey">true</property>
+    <property name="AutoFocusNewRow">false</property>
+    <property name="UseAdvHorzNavigation">true</property>
+    <property name="UseAdvVertNavigation">true</property>
+    <property name="UseOfficePageNavigation">true</property>
+  </property>
+  <property name="BandPanelRowHeight">-1</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="Columns" iskey="true" value="19">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">35</property>
+      <property name="FieldName">TID</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTID</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">83</property>
+      <property name="FieldName">PURINVID</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">colPURINVID</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="ColumnEditName">repositoryItemLookUpEdit1</property>
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">310</property>
+      <property name="FieldName">ITEMID</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Caption">Item name</property>
+      <property name="Name">colITEMID</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">72</property>
+      <property name="RowIndex">1</property>
+      <property name="FieldName">BARCODE</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">10</property>
+      <property name="Caption">Barcode</property>
+      <property name="Name">colBARCODE</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="ColumnEditName">repositoryItemLookUpEdit2</property>
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">310</property>
+      <property name="RowIndex">1</property>
+      <property name="FieldName">ITEMTYPEID</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">11</property>
+      <property name="Caption">Item Type</property>
+      <property name="Name">colITEMTYPEID</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="ColumnEditName">repositoryItemLookUpEdit3</property>
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">341</property>
+      <property name="RowIndex">1</property>
+      <property name="FieldName">STOREID</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">12</property>
+      <property name="Caption">To Store</property>
+      <property name="Name">colSTOREID</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">57</property>
+      <property name="FieldName">QTY</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Caption">Quantity</property>
+      <property name="Name">colQTY</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">71</property>
+      <property name="FieldName">BONUSQTY</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Caption">Bonus Qty.</property>
+      <property name="Name">colBONUSQTY</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">74</property>
+      <property name="FieldName">INVRATE</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Caption">Inv.Rate</property>
+      <property name="Name">colINVRATE</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">55</property>
+      <property name="FieldName">DISC</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Caption">Discount</property>
+      <property name="Name">colDISC</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">87</property>
+      <property name="FieldName">SPDISC</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Caption">Extra Disc.</property>
+      <property name="Name">colSPDISC</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">116</property>
+      <property name="FieldName">SPRICE</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">7</property>
+      <property name="Caption">Sale Price</property>
+      <property name="Name">colSPRICE</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">116</property>
+      <property name="RowIndex">1</property>
+      <property name="FieldName">CPRICE</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">13</property>
+      <property name="Caption">Cost Price</property>
+      <property name="Name">colCPRICE</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">88</property>
+      <property name="FieldName">EXPDATE</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">8</property>
+      <property name="Caption">Exp.Dt</property>
+      <property name="Name">colEXPDATE</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">151</property>
+      <property name="FieldName">LINETOTAL</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">9</property>
+      <property name="Caption">Line Total</property>
+      <property name="Name">colLINETOTAL</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">154</property>
+      <property name="RowIndex">1</property>
+      <property name="FieldName">GROSSVALUE</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">15</property>
+      <property name="Caption">Gross Value</property>
+      <property name="Name">colGROSSVALUE</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">88</property>
+      <property name="RowIndex">1</property>
+      <property name="FieldName">PROFIT</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">14</property>
+      <property name="Caption">Profit</property>
+      <property name="Name">colPROFIT</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">837</property>
+      <property name="FieldName">EXPR</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">colEXPR</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Font">Tahoma, 9pt</property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="Width">72</property>
+      <property name="FieldName">BATCHNO</property>
+      <property name="Fixed">None</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Caption">Batch No.</property>
+      <property name="Name">colBATCHNO</property>
+    </property>
+  </property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="FixedLineWidth">2</property>
+  <property name="MinBandPanelRowCount">1</property>
+  <property name="Bands" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="MinWidth">20</property>
+      <property name="Columns" iskey="true" value="19">
+        <property name="Item1">colTID</property>
+        <property name="Item2">colBATCHNO</property>
+        <property name="Item3">colPURINVID</property>
+        <property name="Item4">colITEMID</property>
+        <property name="Item5">colQTY</property>
+        <property name="Item6">colBONUSQTY</property>
+        <property name="Item7">colINVRATE</property>
+        <property name="Item8">colDISC</property>
+        <property name="Item9">colSPDISC</property>
+        <property name="Item10">colSPRICE</property>
+        <property name="Item11">colEXPDATE</property>
+        <property name="Item12">colLINETOTAL</property>
+        <property name="Item13">colEXPR</property>
+        <property name="Item14">colBARCODE</property>
+        <property name="Item15">colITEMTYPEID</property>
+        <property name="Item16">colSTOREID</property>
+        <property name="Item17">colCPRICE</property>
+        <property name="Item18">colPROFIT</property>
+        <property name="Item19">colGROSSVALUE</property>
+      </property>
+      <property name="Name">gridBand2</property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="OptionsBand" isnull="true" iskey="true">
+        <property name="ShowInCustomizationForm">false</property>
+      </property>
+      <property name="Width">1081</property>
+    </property>
+  </property>
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+</XtraSerializer>

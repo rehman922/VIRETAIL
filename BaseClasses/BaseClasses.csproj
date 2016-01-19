@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5500F000-31AD-43AC-9330-3A7512859530}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaseClasses</RootNamespace>
+    <AssemblyName>BaseClasses</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Export, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseRibbonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseRibbonForm.Designer.cs">
+      <DependentUpon>BaseRibbonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseToolBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseToolBar.Designer.cs">
+      <DependentUpon>BaseToolBar.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseRibbonForm.resx">
+      <DependentUpon>BaseRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseToolBar.resx">
+      <DependentUpon>BaseToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editclear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listadd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewAdd16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_save_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_magnify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save_close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save_delete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resultset_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resultset_next16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resultset_previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resultset_previous16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewlist16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapsed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expanded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_star16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_save_new16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editclear16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_delete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sport_triangle %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sport_triangle %281%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sport_triangle %281%292.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sport_triangle %281%293.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sporttrianglepng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sporttrianglepng1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickynote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveandclose16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save16N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hold16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hold161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow16right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow16left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save16N1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveandclose16N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_suit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtlemosaicpattern.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

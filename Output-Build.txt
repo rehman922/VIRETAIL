@@ -1,0 +1,33 @@
+﻿1>------ Rebuild All started: Project: VIRETAILENTITIES, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: BaseClasses, Configuration: Debug Any CPU ------
+2>E:\VIRETAIL\BaseClasses\BaseToolBar.Designer.cs(298,51,298,62): warning CS0169: The field 'BaseClasses.BaseToolBar.footercuser' is never used
+2>  BaseClasses -> E:\VIRETAIL\BaseClasses\bin\Debug\BaseClasses.dll
+1>  VIRETAILENTITIES -> E:\VIRETAIL\VIRETAILSTORE\VIRETAILENTITIES\bin\Debug\VIRETAILENTITIES.dll
+3>------ Rebuild All started: Project: VIRETAILDAL, Configuration: Debug Any CPU ------
+3>E:\VIRETAIL\VIRETAILSTORE\VIRETAILDAL\Masters\Masters.cs(242,17,242,22): warning CS0219: The variable 'isnew' is assigned but its value is never used
+3>E:\VIRETAIL\VIRETAILSTORE\VIRETAILDAL\Sales\SalesManger.cs(535,17,535,22): warning CS0219: The variable 'isnew' is assigned but its value is never used
+3>  VIRETAILDAL -> E:\VIRETAIL\VIRETAILSTORE\VIRETAILDAL\bin\Debug\VIRETAILDAL.dll
+4>------ Rebuild All started: Project: Store, Configuration: Debug Any CPU ------
+4>E:\VIRETAIL\VIRETAILSTORE\Store\AmtCollection.cs(262,30,262,32): warning CS0168: The variable 'ex' is declared but never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\BasePurInvoice.cs(333,21,333,31): warning CS0219: The variable 'vtotprofit' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\BusinessLogic\BLSales.cs(635,17,635,20): warning CS0168: The variable 'rpp' is declared but never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\COMMON\Utils.cs(223,34,223,37): warning CS0168: The variable 'err' is declared but never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\DailyClosing.cs(120,21,120,24): warning CS0219: The variable 'ret' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\GetDiscountNames.cs(35,47,35,69): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+4>E:\VIRETAIL\VIRETAILSTORE\Store\GetDiscountNames.cs(54,52,54,78): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+4>E:\VIRETAIL\VIRETAILSTORE\Store\RetailSales1.cs(829,17,829,23): warning CS0219: The variable 'sprice' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\AmtCollection.cs(26,22,26,36): warning CS0414: The field 'Store.AmtCollection._enterkeypress' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\AmtCollection.cs(27,24,27,33): warning CS0414: The field 'Store.AmtCollection.salestype' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\CashCollected.cs(18,21,18,29): warning CS0414: The field 'Store.CashCollected.cardtype' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\CommissionSetup.Designer.cs(1033,56,1033,65): warning CS0169: The field 'Store.CommissionSetup.colSTATUS' is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\FetchData.cs(17,31,17,36): warning CS0414: The field 'Store.FetchData.patha' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\FrmItemLookUp.cs(19,22,19,33): warning CS0414: The field 'Store.FrmItemLookUp.ismfbarcode' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\ItemDownLoad.cs(20,24,20,28): warning CS0414: The field 'Store.ItemDownLoad.whid' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\ItemDownLoad.cs(21,24,21,33): warning CS0414: The field 'Store.ItemDownLoad.storecode' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\ItemMast.cs(23,14,23,19): warning CS0414: The field 'Store.ItemMast.IsNew' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\StockList.cs(16,14,16,24): warning CS0414: The field 'Store.StockList.isselected' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\StockList.cs(18,22,18,33): warning CS0414: The field 'Store.StockList.ismfbarcode' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\StockList.cs(19,16,19,22): warning CS0414: The field 'Store.StockList.filter' is assigned but its value is never used
+4>E:\VIRETAIL\VIRETAILSTORE\Store\Storemast.cs(20,14,20,19): warning CS0414: The field 'Store.Storemast.isnew' is assigned but its value is never used
+4>  Store -> E:\VIRETAIL\VIRETAILSTORE\Store\bin\Debug\Store.dll
+========== Rebuild All: 4 succeeded, 0 failed, 0 skipped ==========
